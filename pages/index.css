@@ -242,6 +242,7 @@
   padding: 15px 20px;
   border-radius: 4px;
   border-color: #838383;
+  outline: none;
 }
 
 .form__input::placeholder {
@@ -265,11 +266,12 @@
   line-height: 20px;
   margin-bottom: 32px;
   border-radius: 4px;
-  transition: 100%;
+  transition: opacity 0.4s;
+  outline: none;
 }
 
 .form__button:hover {
-  opacity: 70%;
+  opacity: 0.7;
 }
 
 .form__checkbox-label {
